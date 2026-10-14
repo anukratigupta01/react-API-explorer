@@ -87,3 +87,24 @@ This project uses the [DummyJSON Users API](https://dummyjson.com/users?limit=30
 ---
 
 Built as a hands-on React learning project.
+
+## Live Demo
+
+Check out the live project here: https://react-api-explorer.vercel.app
+
+## Features
+- Explore multiple APIs
+- Interactive API buttons
+- Search input
+- Responsive user interface
+
+## Tech Stack
+- React
+- JavaScript
+- Vite
+- CSS
+
+## Run Locally
+1. Clone this repository.
+2. Run `npm install`.
+3. Run `npm run dev`.
