@@ -1,16 +1,89 @@
-# React + Vite
+# React API Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application that fetches user data from an API and lets users search, explore, and view detailed user profiles.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Fetches user data from the DummyJSON API
+- Search users by name or email
+- Clear search with a single click
+- Displays matching results count
+- Loading, error, and empty-result states
+- Interactive user cards
+- User profile details with photo, address, and company information
+- Responsive dark UI with hover effects and animations
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- CSS
+- Vite
+- DummyJSON API
+- Git and GitHub
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js
+- npm
+- Git (optional, for version control)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/anukratigupta01/react-API-explorer.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd react-API-explorer
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## API Used
+
+This project uses the [DummyJSON Users API](https://dummyjson.com/users?limit=30) to fetch sample user information.
+
+## What I Learned
+
+- Working with React hooks: `useState` and `useEffect`
+- Fetching API data using `fetch`, `async/await`, and `try/catch`
+- Implementing search and filtering
+- Handling loading, error, and empty states
+- Rendering lists and conditional UI
+- Styling responsive layouts with CSS
+- Using Git and GitHub for version control
+
+## Future Improvements
+
+- Add pagination
+- Add sorting and additional filters
+- Deploy the application online
+
+## Author
+
+**Anukrati Gupta**
+
+- GitHub: [@anukratigupta01](https://github.com/anukratigupta01)
+
+---
+
+Built as a hands-on React learning project.
